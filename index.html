@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,139 +9,156 @@
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
-    <header> 
+    <header>
         <nav class="navbar">
             <!--1 ლოგო-->
             <a href="#" class="logo">Logo</a>
 
             <!--2 საძიებო ველი-->
             <div class="search-box">
-                <img src="assets/icons/search.png" alt="search" class="search-icon">
+                <img src="assets/icons/search.png" alt="" class="search-icon">
                 <input type="text" placeholder="Search Items,Fashion,Collection And Users">
             </div>
 
             <!--3 მენიუს ბმულები-->
-             <ul class="nav-links">
+            <ul class="nav-links">
                 <li><a href="#">Home</a></li>
                 <li>
                     <a href="#">
                         Explore
-                        <img src="assets/icons/dropdown.png" alt="dropdown" class="dropdown-icon">
+                        <img src="assets/icons/dropdown.png" alt="" class="dropdown-icon">
                     </a>
                 </li>
-                    <li><a href="#">Personal Collection</a></li>
-                    <li><a href="#">Drops</a></li>
-                    <li>
-                    <a href="#">
-                        More
-                        <img src="assets/icons/dropdown.png" alt="dropdown" class="dropdown-icon">
-                        </a>
-                     </li>
+                <li><a href="#">Personal Collection</a></li>
+                <li><a href="#">Drops</a></li>
+
+                    <!--more მენიუ -->
+
+                <li class="dropdown-parent">
+                    <a href="#" class="dropdown-btn">
+                       More
+                      <img src="assets/icons/dropdown.png" alt="" class="dropdown-icon">
+                      <ul class="dropdown-menu">
+                          <li><a href="#">Stats</a></li>
+                          <li><a href="#">Shows</a></li>
+                          <li><a href="#">About Us</a></li>
+                          <li><a href="#">Community</a></li>
+                          <li><a href="#">Creator Studio</a></li>
+                          <li><a href="#">Edit Profile</a></li>
+                          <li><a href="#">Setting</a></li>
+                      </ul>
+                    </a>
+
+                </li>
+                    </li>
                 </ul>
 
                 <!--მარჯვენა მხრის ელემენტები-->
-            <div class="nav-right">
-                <img src="assets/icons/notification.png" alt="Notification" class="icon">
-                <img src="assets/icons/chat.png"  alt="chat" class="icon">
-                <a href="#" class="wallet-btn">Wallet</a>
-                <img src="assets/icons/wallet.png" alt="wallet" class="icon">
-                <img src="assets/icons/profile.png" alt="profile" class="profile-img">
-
-            </div>
+                <div class="nav-right">
+                    <img src="assets/icons/notification.png" alt="Notification" class="icon-notification">
+                    <img src="assets/icons/chat.png" alt="chat" class="icon-chat">
+                    <a href="#" class="wallet-btn">Wallet</a>
+                    <img src="assets/icons/wallet.png" alt="Wallet menu" class="wallet-arrow">
+                    <img src="assets/icons/profile.png" alt="profile" class="profile-img">
+                </div>
         </nav>
     </header>
-    
-   <main>
-    <div class="tabs">
-        <a href="#" class="tab tab-active">Main Collection</a>
-        <a href="#" class="tab">Creators Market</a>
-    </div>
-<section class="hero">
-    <div class="hero-text">
-        <h1>Clothes are the<br>Spirit of Fashion</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>Nunc vulputate libero et velit.</p>
 
-        <div class="hero-buttons">
-            <a href="#" class="btn btn-primary">Explore Now</a>
-            <a href="#" class="btn btn-secondary">Create</a>
+    <main>
+        <div class="tabs">
+            <a href="index.html" class="tab tab-active">Main Collection</a>
+            <a href="collection.html" class="tab">Creators Market</a>
         </div>
+        <section class="hero">
+            <div class="hero-text">
+                <h1>Clothes are the<br>Spirit of Fashion</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>Nunc vulputate libero et velit.</p>
 
-        <div class="stats">
-            <div>
-                <h3>100+</h3>
-                <p>Brands</p>
-            </div>
-            <div>
-                <h3>20K+</h3>
-                <p>Fashion Designer</p>
-            </div>
-            <div>
-                <h3>60+</h3>
-                <p>Fashion Shows</p>
-            </div>
-        </div>  
-        </div>
-    <div class="hero-images">
-        <div class="col">
-            <img src="assets/images/shoes-white.png">
-            <img src="assets/images/suit.png">
-            <img src="assets/images/shoes-green.png">
-        </div>
-        <div class="col">
-            <img src="assets/images/shoes-yellow.png">
-            <img src="assets/images/jacket.png">
-            <img src="assets/images/figure.png">
-            </div>
-         <div class="col">
-                <img src="assets/images/dress.png">
-            </div>
-        </div>    
-</section>
- <section class="brands">
-    <img src="assets/images/adidas.png" alt="adidas">
-    <img src="assets/images/puma.png" alt="puma">
-    <img src="assets/images/lacoste.png" alt="lacoste">
- </section>
-<section class="about">
-    <div class="about-head">
-        <h2>About Us</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur<br> adipiscing elit.</p>
-    </div>
-    <div class="about-content">
-        <img src="assets/images/Rectangle.png">
+                <div class="hero-buttons">
+                    <a href="#" class="btn btn-primary">Explore Now</a>
+                    <a href="#" class="btn btn-secondary">Create</a>
+                </div>
 
-        <div class="about-text">
-            <h3>Fashion That Speaks</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla  risus sem sollicitudin lacus, ut interdum tellus elit sed risus.  eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per<br> inceptos himenaeos. Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar. </p>
-            <a href="#" class="btn btn-primary">Show more</a>
+                <div class="stats">
+                    <article>
+                        <h3>100+</h3>
+                        <p>Brands</p>
+                    </article>
+                    <article>
+                        <h3>20k+</h3>
+                        <p>Fashion Designer</p>
+                    </article>
+                    <article>
+                        <h3>60+</h3>
+                        <p>Fashion Shows</p>
+                    </article>
+                </div>
+            </div>
+            <div class="hero-images">
+                <div class="col">
+                    <img src="assets/images/shoes-white.png" alt="White futuristic sneakers">
+                    <img src="assets/images/suit.png" alt="Metallic silver suit">
+                    <img src="assets/images/shoes-green.png" alt="Colorful sneaker on green background">
+                </div>
+                <div class="col">
+                    <img src="assets/images/shoes-yellow.png" alt="Yellow and blue sneakers">
+                    <img src="assets/images/jacket.png" alt="Metallic jacket on a podium">
+                    <img src="assets/images/figure.png" alt="Green figure on purple background">
+                </div>
+                <div class="col">
+                    <img src="assets/images/dress.png" alt="Golden evening dress">
+                </div>
+            </div>
+        </section>
+        <section class="brands">
+            <img src="assets/images/adidas.png" alt="adidas logo">
+            <img src="assets/images/puma.png" alt="puma logo">
+            <img src="assets/images/lacoste.png" alt="lacoste logo">
+        </section>
+        <section class="about">
+            <div class="about-head">
+                <h2>About Us</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur<br> adipiscing elit.</p>
+            </div>
+            <div class="about-content">
+                <img src="assets/images/Rectangle.png" alt="Fashion model in a silver dress and fur coat">
+
+                <div class="about-text">
+                    <h3>Fashion That Speaks</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a,
+                        mattis tellus. Sed dignissim, metus nec fringilla risus sem sollicitudin lacus, ut interdum
+                        tellus elit sed risus. eget condimentum velit, sit amet feugiat lectus. Class aptent taciti
+                        sociosqu ad litora torquent per conubia nostra, per<br> inceptos himenaeos. Praesent auctor
+                        purus luctus enim egestas, ac scelerisque ante pulvinar. </p>
+                    <a href="#" class="btn btn-primary">Show more</a>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="collection">
+            <div class="collection-head">
+                <h2>All Collection</h2>
+                <p>Worlds First Layer 2 Fashion Marketplace</p>
             </div>
 
-        </div>
-    </div>
-</section>
-
-<section class="collection">
-    <div class="collection-head">
-        <h2> All Collection</h2>
-        <p>Worlds First Layer 2 Fashion Marketplace</p>
-    </div>
-
-    <div class="collection-items">
-        <div>
-            <img src="assets/images/Mask1.png" alt="mask">
-            <p>No Gas Fees</p>
-    </div>
-    <div >
-        <img src="assets/images/Mask2.png" alt="mask">
-        <p>Carbon Netural NFTs</p>
-    </div>
-    <div>
-        <img src="assets/images/Mask3.png" alt="mask">
-        <p>Fast And Easy Transactions</p>
-    </div>
- </div>
-</section>
+            <div class="collection-items">
+                <div>
+                    <img src="assets/images/Mask1.png" alt="Price tag icon">
+                    <p>No Gas Fees</p>
+                </div>
+                <div>
+                    <img src="assets/images/Mask2.png" alt="NFT chip icon">
+                    <p>Carbon Netural NFTs</p>
+                </div>
+                <div>
+                    <img src="assets/images/Mask3.png" alt="Transfer arrows icon">
+                    <p>Fast And Easy Transactions</p>
+                </div>
+            </div>
+        </section>
 
         <section class="market">
             <div class="market-tabs">
@@ -153,347 +171,393 @@
 
             <div class="market-grid">
                 <!-- ბარათი 1-->
-            <div class="card">
-        <img src="assets/images/silver.png" alt="silver" class="card-img">
+                <article class="card">
+                    <img src="assets/images/silver.png" alt="Silver metallic dress on a runway" class="card-img">
 
-        <div class="card-info">
-            <span class="card-user">@Johny</span>
-            <span class="card-bid-label">Current Bid</span>
-        </div>
+                    <div class="card-info">
+                        <span class="card-user">@Johny</span>
+                        <span class="card-bid-label">Current Bid</span>
+                    </div>
 
-         <div class="card-info">
-            <h4 class="card-title">Lorem Ipsum</h4>
-            <span class="card-price">0.005 ETH</span>
-        </div>
-        <div class="card-bottom">
-            <img src="assets/icons/heart-red.png" alt="heart-red" class="heart">
-            <a href="#" class="btn btn-primary card-btn">Buy Now</a>
-        </div>
-    </div>
-              <!--ბარათი2-->
-              <div class="card">
-        <img src="assets/images/gold.png" alt="gold" class="card-img">
-        <div class="card-info">
-            <span class="card-user">@Johny</span>
-            <span class="card-bid-label">Current Bid</span>
-        </div>
-        <div class="card-info">
-            <h4 class="card-title">Lorem Ipsum</h4>
-            <span class="card-price">0.005 ETH</span>
-        </div>
-        <div class="card-bottom">
-            <img src="assets/icons/heart-red.png" alt="heart-red" class="heart">
-            <a href="#" class="btn btn-primary card-btn">Buy Now</a>
-        </div>
-    </div>
+                    <div class="card-info">
+                        <h4 class="card-title">Lorem Ipsum</h4>
+                        <span class="card-price">0.005 ETH</span>
+                    </div>
+                    <div class="card-bottom">
+                        <img src="assets/icons/heart-red.png" alt="Liked" class="heart">
+                        <a href="#" class="btn btn-primary card-btn">Buy Now</a>
+                    </div>
+                </article>
+                <!--ბარათი2-->
+                <article class="card">
+                    <img src="assets/images/gold.png" alt="Orange and black dress on a peach background"
+                        class="card-img">
+                    <div class="card-info">
+                        <span class="card-user">@Johny</span>
+                        <span class="card-bid-label">Current Bid</span>
+                    </div>
+                    <div class="card-info">
+                        <h4 class="card-title">Lorem Ipsum</h4>
+                        <span class="card-price">0.005 ETH</span>
+                    </div>
+                    <div class="card-bottom">
+                        <img src="assets/icons/heart-red.png" alt="Liked" class="heart">
+                        <a href="#" class="btn btn-primary card-btn">Buy Now</a>
+                    </div>
+                </article>
 
-    <!-- ბარათი 3 -->
-    <div class="card">
-        <img src="assets/images/green.png" alt="green" class="card-img">
-        <div class="card-info">
-            <span class="card-user">@Johny</span>
-            <span class="card-bid-label">Current Bid</span>
-        </div>
-        <div class="card-info">
-            <h4 class="card-title">Lorem Ipsum</h4>
-            <span class="card-price">0.005 ETH</span>
-        </div>
-        <div class="card-bottom">
-            <img src="assets/icons/heart-red.png" alt="heart-red" class="heart">
-            <a href="#" class="btn btn-primary card-btn">Buy Now</a>
-        </div>
-    </div>
+                <!-- ბარათი 3 -->
+                <article class="card">
+                    <img src="assets/images/green.png" alt="Green mirrored dress" class="card-img">
+                    <div class="card-info">
+                        <span class="card-user">@Johny</span>
+                        <span class="card-bid-label">Current Bid</span>
+                    </div>
+                    <div class="card-info">
+                        <h4 class="card-title">Lorem Ipsum</h4>
+                        <span class="card-price">0.005 ETH</span>
+                    </div>
+                    <div class="card-bottom">
+                        <img src="assets/icons/heart-red.png" alt="Liked" class="heart">
+                        <a href="#" class="btn btn-primary card-btn">Buy Now</a>
+                    </div>
+                </article>
 
-    <!-- ბარათი 4 -->
-    <div class="card">
-        <img src="assets/images/robot1.png" alt="robot" class="card-img">
-        <div class="card-info">
-            <span class="card-user">@Johny</span>
-            <span class="card-bid-label">Current Bid</span>
-        </div>
-        <div class="card-info">
-            <h4 class="card-title">Lorem Ipsum</h4>
-            <span class="card-price">0.005 ETH</span>
-        </div>
-        <div class="card-bottom">
-            <img src="assets/icons/heart2.png" alt="heart2" class="heart">
-            <a href="#" class="btn btn-primary card-btn">Buy Now</a>
-        </div>
-    </div>
+                <!-- ბარათი 4 -->
+                <article class="card">
+                    <img src="assets/images/robot1.png" alt="Blue and pink puffer jacket" class="card-img">
+                    <div class="card-info">
+                        <span class="card-user">@Johny</span>
+                        <span class="card-bid-label">Current Bid</span>
+                    </div>
+                    <div class="card-info">
+                        <h4 class="card-title">Lorem Ipsum</h4>
+                        <span class="card-price">0.005 ETH</span>
+                    </div>
+                    <div class="card-bottom">
+                        <img src="assets/icons/heart2.png" alt="Like" class="heart">
+                        <a href="#" class="btn btn-primary card-btn">Buy Now</a>
+                    </div>
+                </article>
 
-    <!-- ბარათი 5 -->
-    <div class="card">
-        <img src="assets/images/robot2.png" alt="robot2" class="card-img">
-        <div class="card-info">
-            <span class="card-user">@Johny</span>
-            <span class="card-bid-label">Current Bid</span>
-        </div>
-        <div class="card-info">
-            <h4 class="card-title">Lorem Ipsum</h4>
-            <span class="card-price">0.005 ETH</span>
-        </div>
-        <div class="card-bottom">
-            <img src="assets/icons/heart2.png" alt="heart2" class="heart">
-            <a href="#" class="btn btn-primary card-btn">Buy Now</a>
-        </div>
-    </div>
+                <!-- ბარათი 5 -->
+                <article class="card">
+                    <img src="assets/images/robot2.png" alt="Red puffer jacket" class="card-img">
+                    <div class="card-info">
+                        <span class="card-user">@Johny</span>
+                        <span class="card-bid-label">Current Bid</span>
+                    </div>
+                    <div class="card-info">
+                        <h4 class="card-title">Lorem Ipsum</h4>
+                        <span class="card-price">0.005 ETH</span>
+                    </div>
+                    <div class="card-bottom">
+                        <img src="assets/icons/heart2.png" alt="Like" class="heart">
+                        <a href="#" class="btn btn-primary card-btn">Buy Now</a>
+                    </div>
+                </article>
 
-    <!-- ბარათი 6 -->
-    <div class="card">
-        <img src="assets/images/robot3.png" alt="robot3" class="card-img">
-        <div class="card-info">
-            <span class="card-user">@Johny</span>
-            <span class="card-bid-label">Current Bid</span>
-        </div>
-        <div class="card-info">
-            <h4 class="card-title">Lorem Ipsum</h4>
-            <span class="card-price">0.005 ETH</span>
-        </div>
-        <div class="card-bottom">
-            <img src="assets/icons/heart2.png" alt="heart2" class="heart">
-            <a href="#" class="btn btn-primary card-btn">Buy Now</a>
-        </div>
-     </div>
+                <!-- ბარათი 6 -->
+                <article class="card">
+                    <img src="assets/images/robot3.png" alt="Colorful graffiti jacket" class="card-img">
+                    <div class="card-info">
+                        <span class="card-user">@Johny</span>
+                        <span class="card-bid-label">Current Bid</span>
+                    </div>
+                    <div class="card-info">
+                        <h4 class="card-title">Lorem Ipsum</h4>
+                        <span class="card-price">0.005 ETH</span>
+                    </div>
+                    <div class="card-bottom">
+                        <img src="assets/icons/heart2.png" alt="Like" class="heart">
+                        <a href="#" class="btn btn-primary card-btn">Buy Now</a>
+                    </div>
+                </article>
 
-        <!--ბარათი 7-->
-        <div class="card">
-            <img src="assets/images/red shoes.png" alt="red shoes" class="card-img">
-            <div class="card-info">
-                <span class="card-user">@Johny</span>
-                 <span class="card-bid-label">Current Bid</span>
-        </div>
-        <div class="card-info">
-            <h4 class="card-title">Lorem Ipsum</h4>
-            <span class="card-price">0.005 ETH</span>
-        </div>
-        <div class="card-bottom">
-            <img src="assets/icons/heart2.png" alt="heart2" class="heart">
-            <a href="#" class="btn btn-primary card-btn">Buy Now</a>
-        </div>
-        </div>
+                <!--ბარათი 7-->
+                <article class="card">
+                    <img src="assets/images/red shoes.png" alt="Red and black high-top sneaker" class="card-img">
+                    <div class="card-info">
+                        <span class="card-user">@Johny</span>
+                        <span class="card-bid-label">Current Bid</span>
+                    </div>
+                    <div class="card-info">
+                        <h4 class="card-title">Lorem Ipsum</h4>
+                        <span class="card-price">0.005 ETH</span>
+                    </div>
+                    <div class="card-bottom">
+                        <img src="assets/icons/heart2.png" alt="Like" class="heart">
+                        <a href="#" class="btn btn-primary card-btn">Buy Now</a>
+                    </div>
+                </article>
 
-         <!--ბარათი 8-->
-        <div class="card">
-            <img src="assets/images/violet shoes.png" alt="violet shoes" class="card-img">
-            <div class="card-info">
-                <span class="card-user">@Johny</span>
-                 <span class="card-bid-label">Current Bid</span>
-        </div>
-        <div class="card-info">
-            <h4 class="card-title">Lorem Ipsum</h4>
-            <span class="card-price">0.005 ETH</span>
-        </div>
-        <div class="card-bottom">
-            <img src="assets/icons/heart2.png" alt="heart2" class="heart">
-            <a href="#" class="btn btn-primary card-btn">Buy Now</a>
-        </div>
-        </div>
+                <!--ბარათი 8-->
+                <article class="card">
+                    <img src="assets/images/violet shoes.png" alt="Violet and blue high-top sneaker" class="card-img">
+                    <div class="card-info">
+                        <span class="card-user">@Johny</span>
+                        <span class="card-bid-label">Current Bid</span>
+                    </div>
+                    <div class="card-info">
+                        <h4 class="card-title">Lorem Ipsum</h4>
+                        <span class="card-price">0.005 ETH</span>
+                    </div>
+                    <div class="card-bottom">
+                        <img src="assets/icons/heart2.png" alt="Like" class="heart">
+                        <a href="#" class="btn btn-primary card-btn">Buy Now</a>
+                    </div>
+                </article>
 
-         <!--ბარათი 9-->
-        <div class="card">
-            <img src="assets/images/gold shoes.png" alt="gold shoes" class="card-img">
-            <div class="card-info">
-                <span class="card-user">@Johny</span>
-                <span class="card-bid-label">Current Bid</span>
+                <!--ბარათი 9-->
+                <article class="card">
+                    <img src="assets/images/gold shoes.png" alt="Golden basketball sneaker" class="card-img">
+                    <div class="card-info">
+                        <span class="card-user">@Johny</span>
+                        <span class="card-bid-label">Current Bid</span>
+                    </div>
+                    <div class="card-info">
+                        <h4 class="card-title">Lorem Ipsum</h4>
+                        <span class="card-price">0.005 ETH</span>
+                    </div>
+                    <div class="card-bottom">
+                        <img src="assets/icons/heart2.png" alt="Like" class="heart">
+                        <a href="#" class="btn btn-primary card-btn">Buy Now</a>
+                    </div>
+                </article>
             </div>
-            <div class="card-info">
-                <h4 class="card-title">Lorem Ipsum</h4>
-                <span class="card-price">0.005 ETH</span>
+        </section>
+        <section class="trending">
+            <div class="trending-head">
+                <h2>New &amp; Trending</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur<br>adipiscing elit.</p>
             </div>
-            <div class="card-bottom">
-                <img src="assets/icons/heart2.png" alt="heart2" class="heart">
-                <a href="#" class="btn btn-primary card-btn">Buy Now</a>
-            </div>
-        </div>   
-    </div>       
-</section>       
-<section class="trending">
-    <div class="trending-head">
-        <h2>New &amp; Trending</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur<br>adipiscing elit.</p>
-    </div>
 
-    <div class="trending-grid">
+            <div class="trending-grid">
 
-        <!--ბარათი 1-->
-        <div class="card">
-            <img src="assets/images/trousers.png" alt="trousers" class="card-img">
-            <div class="card-info">
-                <span class="card-user">@Johny</span>
-                <span class="card-bid-label">Current Bid</span>
-            </div>
-            <div class="card-info">
-                <h4 class="card-title">Lorem Ipsum</h4>
-                <span class="card-price">0.005 ETH</span>
-            </div>
-            <div class="card-bottom">
-                <img src="assets/icons/heart2.png" alt="heart2" class="heart">
-                <a href="#" class="btn btn-primary card-btn">Buy Now</a>
-            </div>
-        </div>
+                <!--ბარათი 1-->
+                <article class="card">
+                    <img src="assets/images/trousers.png" alt="Metallic trousers at sunset" class="card-img">
+                    <div class="card-info">
+                        <span class="card-user">@Johny</span>
+                        <span class="card-bid-label">Current Bid</span>
+                    </div>
+                    <div class="card-info">
+                        <h4 class="card-title">Lorem Ipsum</h4>
+                        <span class="card-price">0.005 ETH</span>
+                    </div>
+                    <div class="card-bottom">
+                        <img src="assets/icons/heart2.png" alt="Like" class="heart">
+                        <a href="#" class="btn btn-primary card-btn">Buy Now</a>
+                    </div>
+                </article>
 
-        <!--ბარათი 2-->
-        <div class="card">
-            <img src="assets/images/jacket3.png" alt="jacket3" class="card-img">
-            <div class="card-info">
-                <span class="card-user">@Johny</span>
-                <span class="card-bid-label">Current Bid</span>
-            </div>
-            <div class="card-info">
-                <h4 class="card-title">Lorem Ipsum</h4>
-                <span class="card-price">0.005 ETH</span>
-            </div>
-            <div class="card-bottom">
-                <img src="assets/icons/heart2.png" alt="heart2" class="heart">
-                <a href="#" class="btn btn-primary card-btn">Buy Now</a>
-            </div>
-        </div>
+                <!--ბარათი 2-->
+                <article class="card">
+                    <img src="assets/images/jacket3.png" alt="Patterned blue hoodie" class="card-img">
+                    <div class="card-info">
+                        <span class="card-user">@Johny</span>
+                        <span class="card-bid-label">Current Bid</span>
+                    </div>
+                    <div class="card-info">
+                        <h4 class="card-title">Lorem Ipsum</h4>
+                        <span class="card-price">0.005 ETH</span>
+                    </div>
+                    <div class="card-bottom">
+                        <img src="assets/icons/heart2.png" alt="Like" class="heart">
+                        <a href="#" class="btn btn-primary card-btn">Buy Now</a>
+                    </div>
+                </article>
 
-        <!--ბარათი 3-->
-        <div class="card">
-            <img src="assets/images/T-shirt.png" alt="T-shirt" class="card-img">
-            <div class="card-info">
-                <span class="card-user">@Johny</span>
-                <span class="card-bid-label">Current Bid</span>
+                <!--ბარათი 3-->
+                <article class="card">
+                    <img src="assets/images/T-shirt.png" alt="Black T-shirt with pink emblem" class="card-img">
+                    <div class="card-info">
+                        <span class="card-user">@Johny</span>
+                        <span class="card-bid-label">Current Bid</span>
+                    </div>
+                    <div class="card-info">
+                        <h4 class="card-title">Lorem Ipsum</h4>
+                        <span class="card-price">0.005 ETH</span>
+                    </div>
+                    <div class="card-bottom">
+                        <img src="assets/icons/heart2.png" alt="Like" class="heart">
+                        <a href="#" class="btn btn-primary card-btn">Buy Now</a>
+                    </div>
+                </article>
             </div>
-            <div class="card-info">
-                <h4 class="card-title">Lorem Ipsum</h4>
-                <span class="card-price">0.005 ETH</span>
-            </div>
-            <div class="card-bottom">
-                <img src="assets/icons/heart2.png" alt="heart2" class="heart">
-                <a href="#" class="btn btn-primary card-btn">Buy Now</a>
-            </div>
-        </div>
-
-    </div>
-</section>
-        <section class="creators"> 
+        </section>
+        <section class="creators">
             <div class="creators-head">
                 <h2>Upcoming Creators</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur<br> adipiscing elit.</p>
             </div>
 
             <div class="creators-grid">
-            <!--ბარათი 1-->
-            <div class="creator-card">
-                <img src="assets/images/creator1.png" alt="creator1" class="creator-cover">
-                <img src="assets/images/avatar1.png" alt="avatar1" class="creator-avatar">
-                <h4 class="creator-name">John Wick
-                    <img src="assets/icons/verified.png" alt="verified" class="creator-check">
-                </h4>
-                <p class="creator-text">Lorem ipsum dolor sit amet, consectetur <br>adipiscing elit.</p>
-                <a href="#" class="btn btn-primary creator-btn">+ Follow</a>
-           </div>
+                <!--ბარათი 1-->
+                <article class="creator-card">
+                    <img src="assets/images/creator1.png" alt="Abstract teal and orange artwork" class="creator-cover">
+                    <img src="assets/images/avatar1.png" alt="Portrait of John Wick" class="creator-avatar">
+                    <h4 class="creator-name">John Wick
+                        <img src="assets/icons/verified.png" alt="verified" class="creator-check">
+                    </h4>
+                    <p class="creator-text">Lorem ipsum dolor sit amet, consectetur <br>adipiscing elit.</p>
+                    <a href="#" class="btn btn-primary creator-btn">+ Follow</a>
+                </article>
 
-           <!--ბარათი 2-->
-           <div class="creator-card">
-            <img src="assets/images/creator2.png" alt="creator2" class="creator-cover">
-            <img src="assets/images/avatar2.png"  alt="avatar2" class="creator-avatar">
-            <h4 class="creator-name">John Wick
-             <img src="assets/icons/verified.png" alt="verified" class="creator-check">
-                </h4>
-                <p class="creator-text">Lorem ipsum dolor sit amet, consectetur <br>adipiscing elit.</p>
-                <a href="#" class="btn creator-btn creator-btn-followed">+ Followed</a>
-           </div>
-           <!-- ბარათი 3-->
-            <div class="creator-card">
-            <img src="assets/images/creator3.png" alt="creator3" class="creator-cover">
-            <img src="assets/images/avatar3.png"  alt="avatar3" class="creator-avatar">
-            <h4 class="creator-name">John Wick
-             <img src="assets/icons/verified.png" alt="verified" class="creator-check">
-                </h4>
-                <p class="creator-text">Lorem ipsum dolor sit amet, consectetur <br>adipiscing elit.</p>
-                <a href="#" class="btn btn-primary creator-btn">+ Follow</a>
-           </div>
+                <!--ბარათი 2-->
+                <article class="creator-card">
+                    <img src="assets/images/creator2.png" alt="Black and white geometric floor pattern"
+                        class="creator-cover">
+                    <img src="assets/images/avatar2.png" alt="Portrait of John Wick" class="creator-avatar">
+                    <h4 class="creator-name">John Wick
+                        <img src="assets/icons/verified.png" alt="verified" class="creator-check">
+                    </h4>
+                    <p class="creator-text">Lorem ipsum dolor sit amet, consectetur <br>adipiscing elit.</p>
+                    <a href="#" class="btn creator-btn creator-btn-followed">+ Followed</a>
+                </article>
+                <!-- ბარათი 3-->
+                <article class="creator-card">
+                    <img src="assets/images/creator3.png" alt="Blue and pink light trails" class="creator-cover">
+                    <img src="assets/images/avatar3.png" alt="Portrait of John Wick" class="creator-avatar">
+                    <h4 class="creator-name">John Wick
+                        <img src="assets/icons/verified.png" alt="verified" class="creator-check">
+                    </h4>
+                    <p class="creator-text">Lorem ipsum dolor sit amet, consectetur <br>adipiscing elit.</p>
+                    <a href="#" class="btn btn-primary creator-btn">+ Follow</a>
+                </article>
 
-       </div>
- </section>
+            </div>
+        </section>
 
- <section class="brand-section">
- <div class="brands-head">
-    <h2>Upcoming Brands</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur<br> adipiscing elit.</p>
- </div>
+        <section class="brand-section">
+            <div class="brands-head">
+                <h2>Upcoming Brands</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur<br> adipiscing elit.</p>
+            </div>
 
- <div class="brands-grid">
-      <!--ბარათი 1-->
-      <div class="brands-card">
-        <img src="assets/images/adidas1.png" alt="adidas1" class="brands-cover">
-        <img src="assets/images/logo1.png" atl="logo1" class="brands-logo">
-        <h4 class="brands-name">Adidas
-            <img src="assets/icons/verified.png" alt="verified" class="brands-check">
-        </h4>
-        <p class="brands-text">Lorem ipsum dolor sit amet, consectetur <br>adipiscing elit.</p>
-        <a href="#" class="btn btn-primary brands-btn">+ Follow</a>
-      </div>
-
-
-      <!--ბარათი 2-->
-      <div class="brands-card">
-        <img src="assets/images/nike.png" alt="nike" class="brands-cover">
-        <img src="assets/images/logo2.png" alt="logo2" class="brands-logo">
-        <h4 class="brands-name">Nike
-            <img src="assets/icons/verified.png" alt="verified" class="brands-check">
-        </h4>
-        <p class="brands-text">Lorem ipsum dolor sit amet, consectetur <br>adipiscing elit.</p>
-        <a href="#" class="btn brands-btn brands-btn-followed">+ Follow</a>
-      </div>
-      
-
-       <!--ბარათი 1-->
-      <div class="brands-card">
-        <img src="assets/images/lacoste1.png" alt="lacoste1" class="brands-cover">
-        <img src="assets/images/logo3.png" alt="logo3" class="brands-logo">
-        <h4 class="brands-name">Lacoste
-            <img src="assets/icons/verified.png" alt="verified" class="brands-check">
-        </h4>
-        <p class="brands-text">Lorem ipsum dolor sit amet, consectetur <br>adipiscing elit.</p>
-        <a href="#" class="btn btn-primary brands-btn">+ Follow</a>
-      </div>
-    </div>
- </section>
+            <div class="brands-grid">
+                <!--ბარათი 1-->
+                <article class="brands-card">
+                    <img src="assets/images/adidas1.png" alt="Adidas trefoil logo on blue background"
+                        class="brands-cover">
+                    <img src="assets/images/logo1.png" alt="Adidas round logo" class="brands-logo">
+                    <h4 class="brands-name">Adidas
+                        <img src="assets/icons/verified.png" alt="verified" class="brands-check">
+                    </h4>
+                    <p class="brands-text">Lorem ipsum dolor sit amet, consectetur <br>adipiscing elit.</p>
+                    <a href="#" class="btn btn-primary brands-btn">+ Follow</a>
+                </article>
 
 
- <section class="faq">
-    <div class="faq-head">
-        <h2>Freaquently Asked<br>Question</h2>
-        <p>Wanna Ask Something?</p>
-    </div>
+                <!--ბარათი 2-->
+                <article class="brands-card">
+                    <img src="assets/images/nike.png" alt="Nike swoosh on a wooden wall" class="brands-cover">
+                    <img src="assets/images/logo2.png" alt="Nike round logo" class="brands-logo">
+                    <h4 class="brands-name">Nike
+                        <img src="assets/icons/verified.png" alt="verified" class="brands-check">
+                    </h4>
+                    <p class="brands-text">Lorem ipsum dolor sit amet, consectetur <br>adipiscing elit.</p>
+                    <a href="#" class="btn brands-btn brands-btn-followed">+ Follow</a>
+                </article>
 
-    <div class="faq-grid">
-        <div class="faq-question">
-            <span>Lorem ipsum ipsum ?</span>
-            <span class="faq-plus">+</span>
+
+                <!--ბარათი 3-->
+                <article class="brands-card">
+                    <img src="assets/images/lacoste1.png" alt="Lacoste logo on dark background" class="brands-cover">
+                    <img src="assets/images/logo3.png" alt="Lacoste crocodile round logo" class="brands-logo">
+                    <h4 class="brands-name">Lacoste
+                        <img src="assets/icons/verified.png" alt="verified" class="brands-check">
+                    </h4>
+                    <p class="brands-text">Lorem ipsum dolor sit amet, consectetur <br>adipiscing elit.</p>
+                    <a href="#" class="btn btn-primary brands-btn">+ Follow</a>
+                </article>
+            </div>
+        </section>
+
+
+        <section class="faq">
+            <div class="faq-head">
+                <h2>Frequently Asked<br>Question</h2>
+                <p>Wanna Ask Something?</p>
+            </div>
+
+            <div class="faq-grid">
+                <div class="faq-question">
+                    <span>Lorem ipsum ipsum ?</span>
+                    <span class="faq-plus">+</span>
+                </div>
+                <div class="faq-question">
+                    <span>Lorem ipsum ipsum ?</span>
+                    <span class="faq-plus">+</span>
+                </div>
+                <div class="faq-question">
+                    <span>Lorem ipsum ipsum ?</span>
+                    <span class="faq-plus">+</span>
+                </div>
+                <div class="faq-question">
+                    <span>Lorem ipsum ipsum ?</span>
+                    <span class="faq-plus">+</span>
+                </div>
+                <div class="faq-question">
+                    <span>Lorem ipsum ipsum ?</span>
+                    <span class="faq-plus">+</span>
+                </div>
+                <div class="faq-question">
+                    <span>Lorem ipsum ipsum ?</span>
+                    <span class="faq-plus">+</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="banner">
+            <h2>Highest Quality<br>Collection</h2>
+            <a href="#" class="banner-btn">Get Started</a>
+        </section>
+
+    </main>
+    <footer>
+        <div class="footer-container">
+            <!-- ლოგო და აღწერა -->
+            <div class="footer-col">
+                <a href="#" class="logo">LOGO</a>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque donec non pellentesque ut.</p>
+            </div>
+            <!--2. about სვეტი -->
+            <div class="footer-col">
+                <h4>About</h4>
+                <ul>
+                    <li><a href="#">Product</a></li>
+                    <li><a href="#">Resource</a></li>
+                    <li><a href="#">Term & Condition</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+            </div>
+            <!--3. Company სვეტი -->
+            <div class="footer-col">
+                <h4>Company</h4>
+                <ul>
+                    <li><a href="#">Our Team</a></li>
+                    <li><a href="#">Partner With Us</a></li>
+                    <li><a href="#">Privacy & Policy</a></li>
+                    <li><a href="#">Features</a></li>
+                </ul>
+            </div>
+            <!--4. Contact სვეტი -->
+            <div class="footer-col">
+                <h4>Contact</h4>
+                <p>+012 3456789</p>
+                <p>adorableprogrammer@gmail.com</p>
+                <div class="footer-socials">
+                    <img src="assets/icons/youtube.png" alt="YouTube">
+                    <img src="assets/icons/discord.png" alt="Discord">
+                    <img src="assets/icons/instagram.png" alt="Instagram">
+                </div>
+            </div>
+
+
+
         </div>
-        <div class="faq-question">
-            <span>Lorem ipsum ipsum ?</span>
-            <span class="faq-plus">+</span>
-        </div>
-        <div class="faq-question">
-            <span>Lorem ipsum ipsum ?</span>
-            <span class="faq-plus">+</span>
-        </div>
-        <div class="faq-question">
-            <span>Lorem ipsum ipsum ?</span>
-            <span class="faq-plus">+</span>
-        </div>
-        <div class="faq-question">
-            <span>Lorem ipsum ipsum ?</span>
-            <span class="faq-plus">+</span>
-        </div>
-        <div class="faq-question">
-            <span>Lorem ipsum ipsum ?</span>
-            <span class="faq-plus">+</span>
-        </div>
-    </div>
-</section>
-
-<section class="banner">
-    <h2>Highest Quality<br>Collection</h2>
-    <a href="#" class="banner-btn">Get Started</a>
-</section>
-
-</main>
+    </footer>
 </body>
+
 </html>

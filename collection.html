@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion Marketplace</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+     <header>
+        <nav class="navbar">
+            <!--1 ლოგო-->
+            <a href="#" class="logo">Logo</a>
+
+            <!--2 საძიებო ველი-->
+            <div class="search-box">
+                <img src="assets/icons/search.png" alt="" class="search-icon">
+                <input type="text" placeholder="Search Items,Fashion,Collection And Users">
+            </div>
+
+            <!--3 მენიუს ბმულები-->
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li>
+                    <a href="#">
+                        Explore
+                        <img src="assets/icons/dropdown.png" alt="" class="dropdown-icon">
+                    </a>
+                </li>
+                <li><a href="#">Personal Collection</a></li>
+                <li><a href="#">Drops</a></li>
+
+                    <!--more მენიუ -->
+
+                <li class="dropdown-parent">
+                    <a href="#" class="dropdown-btn">
+                       More
+                      <img src="assets/icons/dropdown.png" alt="" class="dropdown-icon">
+                      <ul class="dropdown-menu">
+                          <li><a href="#">Stats</a></li>
+                          <li><a href="#">Shows</a></li>
+                          <li><a href="#">About Us</a></li>
+                          <li><a href="#">Community</a></li>
+                          <li><a href="#">Creator Studio</a></li>
+                          <li><a href="#">Edit Profile</a></li>
+                          <li><a href="#">Setting</a></li>
+                      </ul>
+                    </a>
+
+                </li>
+                    </li>
+                </ul>
+
+                <!--მარჯვენა მხრის ელემენტები-->
+                <div class="nav-right">
+                    <img src="assets/icons/notification.png" alt="Notification" class="icon-notification">
+                    <img src="assets/icons/chat.png" alt="chat" class="icon-chat">
+                    <a href="#" class="wallet-btn">Wallet</a>
+                    <img src="assets/icons/wallet.png" alt="Wallet menu" class="wallet-arrow">
+                    <img src="assets/icons/profile.png" alt="profile" class="profile-img">
+                </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="tabs">
+            <a href="index.html" class="tab ">Main Collection</a>
+            <a href="collection.html" class="tab tab-active">Creators Market</a>
+        </div>
+        
+
+        <section class="hero">
+            <div class="hero__container">
+                <h1 class="hero__title">Your Style is what you Choose</h1>
+                <p class="hero__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vulputate tortor ipsum neque nulla. Et turpis scelerisque vulputate elementum, egestas neque scelerisque turpis. Adipiscing lacus vel lobortis sit tincidunt enim, libero. In dignissim tortor sit sit convallis morbi.</p>
+                <a href="#" class="hero__btn">Explore Now</a>
+            </div>
+       </section>
+
+        <div class="market-grid">
+                <!-- ბარათი 1-->
+                <article class="card">
+                    <img src="assets/images/silver.png" alt="Silver metallic dress on a runway" class="card-img">
+
+                    <div class="card-info">
+                        <span class="card-user">@Johny</span>
+                        <span class="card-bid-label">Current Bid</span>
+                    </div>
+
+                    <div class="card-info">
+                        <h4 class="card-title">Lorem Ipsum</h4>
+                        <span class="card-price">0.005 ETH</span>
+                    </div>
+                    <div class="card-bottom">
+                        <img src="assets/icons/heart-red.png" alt="Liked" class="heart">
+                        <a href="#" class="btn btn-primary card-btn">Buy Now</a>
+                    </div>
+                </article>
+                <!--ბარათი2-->
+                <article class="card">
+                    <img src="assets/images/gold.png" alt="Orange and black dress on a peach background"
+                        class="card-img">
+                    <div class="card-info">
+                        <span class="card-user">@Johny</span>
+                        <span class="card-bid-label">Current Bid</span>
+                    </div>
+                    <div class="card-info">
+                        <h4 class="card-title">Lorem Ipsum</h4>
+                        <span class="card-price">0.005 ETH</span>
+                    </div>
+                    <div class="card-bottom">
+                        <img src="assets/icons/heart-red.png" alt="Liked" class="heart">
+                        <a href="#" class="btn btn-primary card-btn">Buy Now</a>
+                    </div>
+                </article>
+
+                <!-- ბარათი 3 -->
+                <article class="card">
+                    <img src="assets/images/green.png" alt="Green mirrored dress" class="card-img">
+                    <div class="card-info">
+                        <span class="card-user">@Johny</span>
+                        <span class="card-bid-label">Current Bid</span>
+                    </div>
+                    <div class="card-info">
+                        <h4 class="card-title">Lorem Ipsum</h4>
+                        <span class="card-price">0.005 ETH</span>
+                    </div>
+                    <div class="card-bottom">
+                        <img src="assets/icons/heart-red.png" alt="Liked" class="heart">
+                        <a href="#" class="btn btn-primary card-btn">Buy Now</a>
+                    </div>
+                </article>
+
+                <!-- ბარათი 4 -->
+                <article class="card">
+                    <img src="assets/images/robot1.png" alt="Blue and pink puffer jacket" class="card-img">
+                    <div class="card-info">
+                        <span class="card-user">@Johny</span>
+                        <span class="card-bid-label">Current Bid</span>
+                    </div>
+                    <div class="card-info">
+                        <h4 class="card-title">Lorem Ipsum</h4>
+                        <span class="card-price">0.005 ETH</span>
+                    </div>
+                    <div class="card-bottom">
+                        <img src="assets/icons/heart2.png" alt="Like" class="heart">
+                        <a href="#" class="btn btn-primary card-btn">Buy Now</a>
+                    </div>
+                </article>
+
+                <!-- ბარათი 5 -->
+                <article class="card">
+                    <img src="assets/images/robot2.png" alt="Red puffer jacket" class="card-img">
+                    <div class="card-info">
+                        <span class="card-user">@Johny</span>
+                        <span class="card-bid-label">Current Bid</span>
+                    </div>
+                    <div class="card-info">
+                        <h4 class="card-title">Lorem Ipsum</h4>
+                        <span class="card-price">0.005 ETH</span>
+                    </div>
+                    <div class="card-bottom">
+                        <img src="assets/icons/heart2.png" alt="Like" class="heart">
+                        <a href="#" class="btn btn-primary card-btn">Buy Now</a>
+                    </div>
+                </article>
+
+                <!-- ბარათი 6 -->
+                <article class="card">
+                    <img src="assets/images/robot3.png" alt="Colorful graffiti jacket" class="card-img">
+                    <div class="card-info">
+                        <span class="card-user">@Johny</span>
+                        <span class="card-bid-label">Current Bid</span>
+                    </div>
+                    <div class="card-info">
+                        <h4 class="card-title">Lorem Ipsum</h4>
+                        <span class="card-price">0.005 ETH</span>
+                    </div>
+                    <div class="card-bottom">
+                        <img src="assets/icons/heart2.png" alt="Like" class="heart">
+                        <a href="#" class="btn btn-primary card-btn">Buy Now</a>
+                    </div>
+                </article>
+
+                <!--ბარათი 7-->
+                <article class="card">
+                    <img src="assets/images/red shoes.png" alt="Red and black high-top sneaker" class="card-img">
+                    <div class="card-info">
+                        <span class="card-user">@Johny</span>
+                        <span class="card-bid-label">Current Bid</span>
+                    </div>
+                    <div class="card-info">
+                        <h4 class="card-title">Lorem Ipsum</h4>
+                        <span class="card-price">0.005 ETH</span>
+                    </div>
+                    <div class="card-bottom">
+                        <img src="assets/icons/heart2.png" alt="Like" class="heart">
+                        <a href="#" class="btn btn-primary card-btn">Buy Now</a>
+                    </div>
+                </article>
+
+                <!--ბარათი 8-->
+                <article class="card">
+                    <img src="assets/images/violet shoes.png" alt="Violet and blue high-top sneaker" class="card-img">
+                    <div class="card-info">
+                        <span class="card-user">@Johny</span>
+                        <span class="card-bid-label">Current Bid</span>
+                    </div>
+                    <div class="card-info">
+                        <h4 class="card-title">Lorem Ipsum</h4>
+                        <span class="card-price">0.005 ETH</span>
+                    </div>
+                    <div class="card-bottom">
+                        <img src="assets/icons/heart2.png" alt="Like" class="heart">
+                        <a href="#" class="btn btn-primary card-btn">Buy Now</a>
+                    </div>
+                </article>
+
+                <!--ბარათი 9-->
+                <article class="card">
+                    <img src="assets/images/gold shoes.png" alt="Golden basketball sneaker" class="card-img">
+                    <div class="card-info">
+                        <span class="card-user">@Johny</span>
+                        <span class="card-bid-label">Current Bid</span>
+                    </div>
+                    <div class="card-info">
+                        <h4 class="card-title">Lorem Ipsum</h4>
+                        <span class="card-price">0.005 ETH</span>
+                    </div>
+                    <div class="card-bottom">
+                        <img src="assets/icons/heart2.png" alt="Like" class="heart">
+                        <a href="#" class="btn btn-primary card-btn">Buy Now</a>
+                    </div>
+                </article>
+            </div>
+            
